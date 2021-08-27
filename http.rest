@@ -1,0 +1,14 @@
+//get request
+GET http://localhost:3000/product/2?erik=5
+###
+GET http://localhost:3000/product/2
+###
+//post request 
+//there must be an extra lıne between content-type (header) and body
+POST http://localhost:3000/add
+Content-Type:application/json
+
+{
+    "title":"test",
+    "id":5
+}
